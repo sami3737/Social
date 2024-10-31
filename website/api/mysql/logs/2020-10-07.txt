@@ -1,0 +1,6 @@
+Time : 21:57:17
+SQLSTATE[HY000] [1045] Access denied for user 'USERNAME'@'localhost' (using password: YES)
+
+Time : 21:56:34
+SQLSTATE[HY000] [2002] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée.
+

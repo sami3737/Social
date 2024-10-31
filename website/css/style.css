@@ -1,0 +1,90 @@
+body{
+	margin: 0px;
+	background-color: #2f2c2e;
+}
+
+table
+{
+	width: 400px;
+	text-align:center;
+}
+
+.discordlink
+{
+	cursor:pointer;
+}
+
+#main
+{
+    background-color: #2f2c2e;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 20px;
+}
+.status-content
+{
+	background-color: grey;
+	border-radius: 20px;
+	padding: 10px;
+}
+
+.fa-check{
+	color: green;
+}
+
+.fa-times{
+	color: red;	
+}
+
+.UnderStatusText{
+	font-size: 20px;	
+}
+
+#login {
+    background-color: #4d6cd1;
+    color: white;
+    height: 1021px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.blue{
+	color: #4d6cd1;
+	text-decoration:none;
+}
+
+.discord{
+	color: #4d6cd1;
+	text-decoration:none;
+}
+
+.blue:hover{
+    color: white;
+}
+
+.button:hover{
+    background-color: white;
+}
+
+.button {
+  background-color: #2e6fe6;
+  color: #2f2c2e;
+  border-radius: 23px;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  font-size: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

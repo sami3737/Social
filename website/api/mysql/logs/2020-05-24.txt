@@ -1,0 +1,39 @@
+Time : 14:02:03
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''steamid') VALUES (?)' at line 1
+Raw SQL : INSERT INTO social ('steamid') VALUES (:steam)
+
+Time : 14:00:56
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? ('steamid') VALUES (?)' at line 1
+Raw SQL : INSERT INTO :table ('steamid') VALUES (:steam)
+
+Time : 14:00:45
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM social WHERE steamid = :steam
+
+Time : 14:00:35
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? WHERE steamid = ?' at line 1
+Raw SQL : SELECT * FROM :table WHERE steamid = :steam
+
+Time : 13:59:50
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? WHERE steamid = ?' at line 1
+Raw SQL : SELECT * FROM :table WHERE steamid = :steam
+
+Time : 13:55:29
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? WHERE steamid = ?' at line 1
+Raw SQL : SELECT * FROM :table WHERE steamid = :steam
+
+Time : 13:55:00
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? WHERE steamid = ':steam'' at line 1
+Raw SQL : SELECT * FROM :table WHERE steamid = ':steam'
+
+Time : 13:54:42
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? WHERE steamid = ?' at line 1
+Raw SQL : SELECT * FROM :table WHERE steamid = :steam
+
+Time : 13:54:03
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? WHERE steamid = ?' at line 1
+Raw SQL : SELECT * FROM :table WHERE steamid = :steam
+
+Time : 13:52:53
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? WHERE steamid = ?' at line 1
+Raw SQL : SELECT * FROM :table WHERE steamid = :steam
